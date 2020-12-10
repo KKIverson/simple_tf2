@@ -1,0 +1,5 @@
+1. 创建、激活虚拟环境
+conda create --name tf2 python=3.7
+conda activate tf2
+2. 安装tf2
+pip install tensorflow
