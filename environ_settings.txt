@@ -1,4 +1,8 @@
 1. 创建、激活虚拟环境
+# 添加源
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+# 创建虚拟环境
 conda create --name tf2 python=3.7
 conda activate tf2
 2. 安装tf2
